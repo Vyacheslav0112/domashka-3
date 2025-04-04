@@ -42,6 +42,7 @@ header span {
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .text-wrapper {
@@ -73,6 +74,7 @@ header span {
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
    display: flex;
     gap:60px;
+
 }
 
 select {
@@ -129,7 +131,7 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
 }
 
